@@ -1,0 +1,61 @@
+body {
+    position: relative;
+}
+
+.layout {
+    position: absolute;
+    display: fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100vh;
+    background-image: url('cup.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 60%;
+    opacity: .8;
+    z-index: -1;
+}
+
+.box {
+    width: 100%;
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 25vw;
+    height: 140px;
+    margin: 20px 12.5px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.card-header {
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    border-bottom: 1px dashed #191919;
+    font-size: 2.5em;
+}
+
+.one {
+    background-color: blue;
+}
+
+.dos {
+    background-color: yellow;
+}
+
+.tres {
+    background-color: red;
+}
+
+.cuatro {
+    background-color: green;
+}
+
+.cinco {
+    background-color: purple;
+}
